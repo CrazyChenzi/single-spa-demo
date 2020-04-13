@@ -1,0 +1,11 @@
+{
+  "name": "single-spa-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/blacklisten/single-spa-demo.git",
+  "author": "blacklisten <756319278@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vue-cli-plugin-single-spa": "~1.1.0"
+  }
+}
