@@ -46,13 +46,13 @@
           singleSpa.registerApplication(
             'vueapp1',
             () => System.import('vueapp1'),
-            location => location.pathname.startsWith('/vueapp1')
+            location => location.hash.startsWith('#/vueapp1')
           )
 
           singleSpa.registerApplication(
             'vueapp2',
             () => System.import('vueapp2'),
-            location => location.pathname.startsWith('/vueapp2')
+            location => location.hash.startsWith('#/vueapp2')
           )
 
           singleSpa.start();
